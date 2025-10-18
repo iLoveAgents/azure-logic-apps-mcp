@@ -1,0 +1,31 @@
+# Azure CLI
+.azure/
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# macOS
+.DS_Store
+*.DS_Store
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+*.bak
+*.backup
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Node modules (if using npm tools)
+node_modules/
+npm-debug.log*
+
+# Local configuration
+host.json.backup
+/tmp/
+*.local.json
