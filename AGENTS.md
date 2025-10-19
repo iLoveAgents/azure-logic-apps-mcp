@@ -130,8 +130,6 @@ Wait 30 seconds.
 
 ### Required Workflow Structure
 
-**CRITICAL:** Use `"kind": "Stateless"` for MCP tools.
-
 ```json
 {
   "definition": {
@@ -169,7 +167,7 @@ Wait 30 seconds.
       }
     }
   },
-  "kind": "Stateless"
+  "kind": "Stateful"
 }
 ```
 

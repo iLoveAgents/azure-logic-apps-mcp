@@ -117,7 +117,7 @@ npx @modelcontextprotocol/inspector
 
 ## Creating Tools
 
-Each tool is a **stateless** workflow with:
+Each tool is a **stateless** or **Stateful** workflow with:
 
 1. **HTTP Request Trigger** (named "manual") with JSON schema
 2. **Business Logic** (any workflow actions)
