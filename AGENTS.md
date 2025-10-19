@@ -316,7 +316,7 @@ az ad app update --id $CLIENT_ID \
 
 ### Step 3: Configure Easy Auth
 
-**CRITICAL:** Must enable OAuth discovery for VS Code auto-configuration.
+**CRITICAL:** Must enable OAuth discovery
 
 ```bash
 cat > /tmp/auth_config.json <<EOF
